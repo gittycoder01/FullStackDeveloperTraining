@@ -1,0 +1,59 @@
+body {
+    
+  background-color: #cc99ff;    
+    
+}
+
+
+h1{
+    
+  color:purple;
+  text-align: center;    
+    
+} 
+
+.square{
+    
+   width: 100px;
+   height: 100px;
+   background-color: aqua;
+   margin: auto;
+    
+}
+
+#circle{
+    
+   width: 100px;
+   height: 100px;
+   background-color: indianred;
+   border-radius: 50%;
+   margin: auto;
+   margin-top: 20px;
+        
+}
+
+
+.triangle-up{
+    
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 100px solid red;
+   margin: auto;
+   margin-top: 20px;
+        
+}
+
+.triangle-down{
+    
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-top: 100px solid blue;
+   margin: auto;
+   margin-top: 20px;
+        
+    
+}

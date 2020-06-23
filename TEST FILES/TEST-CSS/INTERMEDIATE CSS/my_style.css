@@ -1,0 +1,175 @@
+html{
+   font-family: "MuseoModerno:wght@600" ,sans-serif, serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar a, .banner{
+
+    text-transform: uppercase;
+    color:  #2554C7;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 35px 10px 00px 0px;  
+}
+
+.logo{
+    width: 70px;
+    height: 50px;
+    border:  3px solid white;
+    margin-left: 20%;
+    margin-right: 1%;
+    display:block;
+    float:left;
+}
+
+.banner{
+
+    padding: 0px 10px 30px 15px;  
+    display: inline-block;
+    margin-right: 9 00px; 
+    float:left
+}
+
+
+
+.course_container{
+     clear: both;
+     /*background-image: url("studycode.jpg");*/
+     /*background-repeat: no-repeat;*/
+    /* background-size: cover;*/
+    
+}
+
+.form_container{
+     text-align: center;
+     background-image: url("studycode.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}
+
+.video_container{
+    margin: 0px;
+    border: 1px black;
+    
+}
+
+.col-6 > h1 {
+    text-align: left;
+    padding: 15px 0px 0px 260px;
+    float: left;    
+}
+
+.col-6 > p{
+    text-align: justify;
+    padding: 15px 0px 0px 260px;
+    float: left;    
+}
+
+    
+
+.course_img{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+
+.cell_img{
+    text-align: center;
+    background-image: linear-gradient(white,gray);
+    
+}
+
+.coures_row{
+    display:flex;
+    width:100%;
+}
+
+.coures_row::after{
+    display:block;
+    clear: both;
+    content: "";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;  
+    margin-bottom: 60px;
+    display: block; 
+    margin: auto;
+}
+
+
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+[class*="col-" ]{
+    padding: 15px;
+    float: left;*
+}
+
+
+
+
+.course_btn{
+    background-color: darkred;
+    color: #fff;
+    border: 0px;
+    text-shadow: 2px 2px 3px black;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px, 20px, 10, 20px;
+    border-radius: 10px;
+    border: 4px solid silver;
+}
+
+h2{
+    font-family: sans-serif;
+    font-style: bold;  
+    text-align: center; 
+    font-size: 25px;
+}
+
+ol{
+    font-family: sans-serif;
+    font-style: oblique;  
+    text-align: center; 
+    list-style-position: inside;    
+    font-size: 25px;
+}
+
+.form{
+    background-color: gray;
+    opacity: 70%;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+
+
+

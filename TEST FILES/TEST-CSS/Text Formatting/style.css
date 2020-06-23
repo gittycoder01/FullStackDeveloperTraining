@@ -1,0 +1,88 @@
+html{
+   /* font-family: "Times New Roman", serif, sans-serif;
+    */
+}
+
+body{
+  /*  background-image: url("minimalbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    
+    background-color: #444;
+    text-align: center;
+}
+
+.borderImg{
+    border: 10px dashed red;
+}
+
+.container{
+    
+    /*background:  darkslateblue;for browsers that don't support gradients*/
+    /*Chrome */
+    /*background-image: -webkit-linear-gradient(to left, #957DAD,#FEC8D8); */
+    /*Opera*/
+    /*background-image: -o-linear-gradient(to left, #957DAD,#FEC8D8); */
+    /*Firefox*/
+    /*background-image: -moz-linear-gradient(to left, #957DAD,#FEC8D8);   */
+    /*Standard Syntax*/
+    /*background-image: linear-gradient(to left, #957DAD,#FEC8D8); */  
+    /*box-shadow: 3px 5px 3px black;*/
+    
+}
+
+
+h1{
+    color:#ffffff;
+    line-height: 2rem;   
+    font-family: 'Montserrat',serif,sans-serif;
+}
+h2{
+    
+    color:#ffffff;
+    line-height: 2rem;  
+    font-family: 'MuseoModerno:wght@700',serif,sans-serif;
+}
+h3{
+    
+    color:#ffffff;
+    line-height: 2rem;  
+    font-family: 'Piedra',serif,sans-serif;
+}
+
+/*h1, h2, h3{
+    
+    color:#ffffff;
+    line-height: 1rem;
+    font-style: ITALIC;
+}*/
+
+/*h2{
+    font-size: 30px;
+    font-style: normal;
+    
+}*/
+
+.formatting{
+    font-size: 30px;
+    line-height: 2em;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    word-spacing: 20px;
+    text-transform: uppercase;
+}
+
+
+ul li{
+    color: white;
+    font-size: 20px;
+}
+
+ul > li{
+    color: yellow;    
+}
