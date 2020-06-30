@@ -1,0 +1,50 @@
+/*.nav-link:active{
+    font-weight: 700;
+    color:aqua;
+}*/
+
+.navbar {
+    font-weight: 700;
+    background-color: 	#42bf2e;
+}
+
+.navbar a.navbar-brand,
+.navbar .navbar-collapse ul.navbar-nav li.nav-item > a
+{
+    color: white;
+}
+
+.navbar a.navbar-brand:hover,
+.navbar .navbar-collapse ul.navbar-nav li.nav-item > a:hover
+{
+    color: wheat;
+}
+
+
+.carousel-item .carousel-img1,
+.carousel-item .carousel-img2,
+.carousel-item .carousel-img3
+{
+height: 700px !important;  
+}
+
+.carousel-item .carousel-img1
+{
+height: 800px !important;
+object-fit: cover; 
+object-position: top;    
+}
+
+.carousel-item .carousel-img2
+{
+height: 800px !important;
+object-fit: cover; 
+object-position: top;    
+}
+
+.carousel-item .carousel-img3
+{
+height: 800px !important;
+object-fit: cover; 
+object-position: center;    
+}
